@@ -1,0 +1,30 @@
+{
+  "name": "spotisci-backend",
+  "version": "1.0.0",
+  "description": "Backend for server side OAuth procedure",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrakho/spotisci-backend.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "@astrakho, Spotify",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astrakho/spotisci-backend/issues"
+  },
+  "homepage": "https://github.com/astrakho/spotisci-backend#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "querystring": "~0.2.0",
+    "request": "~2.83.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4"
+  }
+}
